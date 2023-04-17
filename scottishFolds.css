@@ -1,0 +1,79 @@
+#logo {
+    text-align: left;
+}
+
+#logo img {
+    max-width: 5%;
+    height: auto;
+}
+
+#head {
+    background-color: #ECB494;
+
+}
+
+#head nav {
+    float: right;
+    margin: 11px 20px 0px;
+    margin-right: 50px;
+}
+
+#whiteCat {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#shelter a {
+    text-align: justify;
+    align-items: center;
+    vertical-align: bottom;
+    width: 20%;
+}
+
+img {
+     max-width: 20%;
+     height: auto;
+}
+
+body {
+    background-color: #DBDBDA;
+}
+
+h2 {
+    text-align: left;
+}
+
+p {
+    margin-inline-end: 45%;
+    writing-mode: horizontal-tb;
+}
+
+footer {
+    padding: 1em;
+    background-color: #ECB494;
+}
+
+.form {
+    display: block;
+}
+.footer-nav {
+    list-style-type: none;
+    display: flex;
+    float: right;
+    justify-content: space-around;
+    margin: 11px 20px 0px;
+    margin-right: 50px;
+}
+
+li {
+    padding: 0;
+}
+
+/*@media (min-width: 600px) {
+
+}
+
+@media (min-width: 1024px) {
+
+} */
