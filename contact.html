@@ -3,38 +3,87 @@
     <head>
         <meta charset = "UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel = "stylesheet" href = "scottishFolds.css">
-        <title>Scottish Folds</title>
+        <title>Scottish Folds-Contact Us</title>
     </head>
-    <body>
-        <div id = "head">
-            <div id = "logo">
-                <h1><img src = "images/cat-logo-1.jpg" alt = "Cat logo">Scottish Folds</h1>
+	<body>
+		<div id = "wrapper">
+            <div class = "head">
+                <div class = "title">
+                    Scottish Folds
+                </div>
+                <div id = "logo">
+                    <img src = "images/cat-logo-1.jpg" alt = "Cat logo"></img>
+                </div>
             </div>
-            <nav>
-                <a href = "index.html">Home</a>
-                <a href = "care.html">Care & Maintenance</a>
-                <a href = "contact.html">Contact Us</a>
-            </nav>
+			
+            <br><br><br>
+            <main>
+				<nav>
+					<img src = "images/scottish-fold-corner.png" alt = "Cat logo" style = "margin-top: 10px; width: 135px;"></img>
+						<ul>
+							<li>
+								<a href = "index.html">
+									<button class = "button" role="button">
+										Home
+									</button>
+								</a>
+							</li>
+							<li>
+								<a href = "care.html">
+									<button class = "button" role="button">
+										Care & Maintenance
+									</button>
+								</a>
+							</li>
+							<li>
+								<a href="diet-info.html">
+									<button class = "button" role="button">
+										Diet Info
+									</button>
+								</a>
+							</li>
+							<li>
+								<a href="clean.html">
+									<button class = "button" role="button">
+										How to clean
+									</button>
+								</a>
+							</li>
+							<li>
+								<a href="train.html">
+									<button class = "button" role="button">
+										How to train
+									</button>
+								</a>
+							</li>
+							<li>
+								<a href = "contact.html">
+									<button class = "button-active" role="button">
+										Contact Us
+									</button>
+								</a>
+							</li>
+						</ul>
+				</nav>
+                <div class = "form">
+                    <div class = "ask">
+                        <h1>Ask any questions here!</h1>
+                        <p>or email us at support@scottishfolds.com</p>
+                    </div>
+                    <form action="mailto:scottishfolds@gmail.com" method="post" enctype="text/plain">
+                        <label for = "Name"></label>
+                        <input type = "text" id = "name" placeholder = "Name"><br>
+                        <label for = "email"></label>
+                        <input type = "text" id = "email" placeholder = "Email"><br>
+                        <label for = "number"></label>
+						<input type = "text" id = "number"placeholder = "Phone Number"><br>
+                        <textarea placeholder = "Message"></textarea>
+						<br>
+						<input type="submit" id = "mySubmit" value="Submit">
+                    </form>
+                </div>
+                <footer>Copyright © 2023 Scottish Folds <br><a href = "mailto:">scottishfolds@gmail.com</a></footer>
+            </main>
         </div>
-        <div>
-        <h2>Ask any questions here!</h2>
-        <p>or email us at support@scottishfolds.com</p>
-        <div id = "form">
-            <form>
-                <label for = "fullname"></label>
-                <input type = "text" id = "fullname" name = "fullname" placeholder = "Name"><br>
-                <label for = "email"></label>
-                <input type = "text" id = "email" name = "email" placeholder = "Email"><br>
-                <label for = "fullname"></label>
-                <textarea name = "message" placeholder = "Message"></textarea>
-            </form>
-        </div>
-        <footer>Copyright © 2023 Scottish Folds
-            <ul class = "footer-nav">
-                <li class = "li1" href = "index.html">Home &nbsp</li>
-                <li class = "li1" href = "contact.html">Contact Us</li>
-            </ul>
-        </footer>
-    </body>
+</body>
 </html>
-
